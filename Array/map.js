@@ -5,5 +5,3 @@ Array.prototype.myMap = function(callbackFn, thisArg = this) {
     }
     return result
 }
-
-console.log([1, 2, 3].myMap(el => el + 1))
